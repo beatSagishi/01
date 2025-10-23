@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Martinez</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #3E8E8E;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+        }
+        .text-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .text-content h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #FDCB58;
+        }
+        .text-content p {
+            font-size: 1.2rem;
+            color: #333333;
+        }
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <div class="text-content">
+                <h1>Hey, I’m Daniel Martinez</h1>
+                <p>Actor / Performer / Model</p>
+            </div>
+            <div class="image-content">
+                <img src="/mnt/data/00.png" alt="Daniel Martinez">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
