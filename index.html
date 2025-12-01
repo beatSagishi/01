@@ -3,31 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>照片展示</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 5px solid #ddd;
-            border-radius: 8px;
-        }
-        .container {
-            margin-top: 50px;
-        }
-    </style>
+    <title>我的個人網站</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>歡迎來到照片展示頁面</h1>
-        <img src="your-image.jpg" alt="展示照片">
-        <p>這是你上傳的圖片。</p>
-    </div>
+    <section class="header">
+        <div class="profile-image">
+            <img src="me.jpg" alt="我的照片">
+        </div>
+        <div class="intro">
+            <h1>Hello~</h1>
+            <p>目前就讀高中三年級，對通訊科技及工程領域具有濃厚興趣。喜歡探索資訊與通訊相關的原理與應用，也樂於動手實作與解決問題。希望未來能進一步在逢甲大學通訊工程學系深耕相關專業，培養更扎實的工程能力，並在此領域持續成長。</p>
+        </div>
+    </section>
+    
+    <section class="works">
+        <h2>我的作品</h2>
+        <div class="buttons">
+            <a href="work1.pdf" class="button" target="_blank">作品 1</a>
+            <a href="work2.pdf" class="button" target="_blank">作品 2</a>
+            <a href="work3.pdf" class="button" target="_blank">作品 3</a>
+        </div>
+    </section>
 </body>
 </html>
