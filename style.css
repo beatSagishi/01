@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header section */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #FF6F61;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #333333;
+    max-width: 600px;
+}
+
+/* Works section */
+.works {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.works h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.buttons .button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background-color: #FF6F61;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .button:hover {
+    background-color: #FF3B2A;
+}
