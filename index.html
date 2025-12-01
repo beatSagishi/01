@@ -3,27 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的個人網站</title>
-    <link rel="stylesheet" href="style.css">
+    <title>個人介紹</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .profile-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .hello-title {
+            font-size: 32px;
+            color: #ff6b5a;
+            margin: 0;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-top: 8px;
+        }
+
+        .work-section {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+        .work-title {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .work-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background-color: #ff6b5a;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #ff806f;
+        }
+    </style>
 </head>
 <body>
-    <section class="header">
-        <div class="profile-image">
-            <img src="me.jpg" alt="我的照片">
+
+    <div class="container">
+        <!-- 個人介紹 -->
+        <div class="profile-card">
+            <img src="個人照片me.jpg" alt="個人照片" class="profile-img">
+
+            <div>
+                <h1 class="hello-title">Hello~</h1>
+                <p class="description">
+                    目前就讀高三年級，對通訊科技及工程領域具有濃厚興趣。喜歡探索資訊與通訊相關的原理與應用，
+                    也樂於動手實作與解決問題。希望未來能進一步在逢甲大學通訊工程學系深耕相關專業，
+                    培養更扎實的工程能力，並在此領域持續成長。
+                </p>
+            </div>
         </div>
-        <div class="intro">
-            <h1>Hello~</h1>
-            <p>目前就讀高中三年級，對通訊科技及工程領域具有濃厚興趣。喜歡探索資訊與通訊相關的原理與應用，也樂於動手實作與解決問題。希望未來能進一步在逢甲大學通訊工程學系深耕相關專業，培養更扎實的工程能力，並在此領域持續成長。</p>
+
+        <!-- 作品區 -->
+        <div class="work-section">
+            <h2 class="work-title">我的作品</h2>
+
+            <div class="work-buttons">
+                <a class="btn" href="work1.pdf" target="_blank">作品 1</a>
+                <a class="btn" href="work2.pdf" target="_blank">作品 2</a>
+                <a class="btn" href="work3.pdf" target="_blank">作品 3</a>
+            </div>
         </div>
-    </section>
-    
-    <section class="works">
-        <h2>我的作品</h2>
-        <div class="buttons">
-            <a href="work1.pdf" class="button" target="_blank">作品 1</a>
-            <a href="work2.pdf" class="button" target="_blank">作品 2</a>
-            <a href="work3.pdf" class="button" target="_blank">作品 3</a>
-        </div>
-    </section>
+    </div>
+
 </body>
 </html>
